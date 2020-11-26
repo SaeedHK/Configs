@@ -120,3 +120,5 @@ nnoremap <c-n> :call OpenTerminal()<CR>
 " set spell spelllang=en_ca
 
 set clipboard=unnamedplus
+:set colorcolumn=100
+:set spell spelllang=en_us
