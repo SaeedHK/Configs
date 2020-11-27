@@ -46,6 +46,9 @@ call plug#begin("~/.vim/plugged")
   " Emmet web dev completion
   Plug 'mattn/emmet-vim'
 
+  " Elm highlighting
+  Plug 'elmcast/elm-vim'
+
 call plug#end()
 
 " Enable theming support
