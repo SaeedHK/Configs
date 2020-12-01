@@ -47,7 +47,7 @@ call plug#begin("~/.vim/plugged")
   Plug 'mattn/emmet-vim'
 
   " Elm highlighting
-  Plug 'elmcast/elm-vim'
+  Plug 'andys8/vim-elm-syntax'
 
 call plug#end()
 
@@ -124,4 +124,4 @@ nnoremap <c-n> :call OpenTerminal()<CR>
 
 set clipboard=unnamedplus
 :set colorcolumn=100
-:set spell spelllang=en_us
+autocmd FileType latex,tex,md,markdown setlocal spell
