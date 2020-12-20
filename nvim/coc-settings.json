@@ -7,7 +7,9 @@
     "javascript",
     "typescript",
     "json",
-    "jsonc"
+    "jsonc",
+    "html",
+    "css"
   ],
 
   "coc.source.file.ignoreHidden": false,
