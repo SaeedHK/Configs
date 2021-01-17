@@ -49,6 +49,9 @@ call plug#begin("~/.vim/plugged")
   " Elm highlighting
   Plug 'andys8/vim-elm-syntax'
 
+  " Tailwind
+  Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
+
 call plug#end()
 
 " Enable theming support
