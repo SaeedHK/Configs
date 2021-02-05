@@ -52,6 +52,9 @@ call plug#begin("~/.vim/plugged")
   " Tailwind
   Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
 
+  " TOML
+  Plug 'cespare/vim-toml'
+
 call plug#end()
 
 " Enable theming support

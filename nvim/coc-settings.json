@@ -7,6 +7,8 @@
     "javascript",
     "typescript",
     "json",
+    "yml",
+    "yaml",
     "jsonc",
     "html",
     "css",
@@ -36,5 +38,6 @@
       "rootPatterns": ["elm.json"]
     }
   },
-  "codeLens.enable": true
+  "codeLens.enable": true,
+  "python.formatting.provider": "black"
 }
