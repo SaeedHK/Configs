@@ -12,7 +12,8 @@
     "jsonc",
     "html",
     "css",
-    "scss"
+    "scss",
+    "ruby"
   ],
   "coc.source.file.ignoreHidden": false,
   "prettier.printWidth": 100,
@@ -39,5 +40,12 @@
     }
   },
   "codeLens.enable": true,
-  "python.formatting.provider": "black"
+  "python.formatting.provider": "black",
+  "solargraph.autoformat": true,
+  "solargraph.completion": true,
+  "solargraph.diagnostics": true,
+  "solargraph.formatting": true,
+  "solargraph.hover": true,
+  "solargraph.rename": true,
+  "solargraph.promptDownload": false
 }
