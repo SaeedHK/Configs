@@ -7,13 +7,12 @@
     "javascript",
     "typescript",
     "json",
-    "yml",
-    "yaml",
     "jsonc",
     "html",
     "css",
     "scss",
-    "ruby"
+    "ruby",
+    "tex"
   ],
   "coc.source.file.ignoreHidden": false,
   "prettier.printWidth": 100,
@@ -47,5 +46,6 @@
   "solargraph.formatting": true,
   "solargraph.hover": true,
   "solargraph.rename": true,
-  "solargraph.promptDownload": false
+  "solargraph.promptDownload": false,
+  "python.formatting.blackArgs": ["--line-length", "99"]
 }
